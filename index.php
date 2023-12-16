@@ -18,7 +18,7 @@ if (!isset($_SESSION["user"])) {
     
     <div class="container">
         <header>
-            <h1>Your Shopping Cart</h1>
+            <h1>Foodies</h1>
             <div class="shopping">
                 <img src="image/shopping.svg">
                 <span class="quantity">0</span>
@@ -30,7 +30,7 @@ if (!isset($_SESSION["user"])) {
         </div>
     </div>
     <div class="card">
-        <h1>Card</h1>
+        <h1>Cart</h1>
         <ul class="listCard">
         </ul>
         <div class="checkOut">
