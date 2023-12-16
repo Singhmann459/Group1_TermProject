@@ -38,6 +38,7 @@ if (isset($_SESSION["user"])) {
             }
         }
         ?>
+
       <form action="login.php" method="post">
         <div class="form-group">
             <input type="email" placeholder="Enter Email:" name="email" class="form-control">
@@ -47,9 +48,12 @@ if (isset($_SESSION["user"])) {
         </div>
         <div class="form-btn">
             <input type="submit" value="Login" name="login" class="btn btn-primary">
+                <a href="registration.php" class="btn btn-secondary">Register</a>
+            </div>
         </div>
+        
       </form>
-     <div><p>Not registered yet <a href="registration.php">Register Here</a></p></div>
-    </div>
+     
+    
 </body>
 </html>
